@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* header area start here */
+
+.menu ul li a {
+    color: #404040 !important;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 500;
+    position: relative;
+}
+
+.menu ul li a::after {
+    position: absolute;
+    content: '';
+    width: 82%;
+    height: 4px;
+    bottom: 5%;
+    left: 10%;
+    background-color: none;
+    transition: 0.3s;
+}
+
+.menu ul li a:hover::after {
+    background-color: #40404040;
+}
+
+.menu ul li {
+    margin-right: 20px;
+}
+
+.btn-custome {
+    background-color: #7f1a38;
+    color: #ffffff;
+    text-transform: capitalize;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.btn-custome:hover {
+    border: 2px solid#7f1a38;
+    color: #7f1a38;
+    background-color: transparent;
+    transition: .8s;
+}
+
+
+/* header area end here */
+
+
+/* banner area start here */
+
+#banner-part {
+    background-image: url();
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner-content {
+    padding: 100px;
+}
+
+.banner-content h2 {
+    text-transform: uppercase;
+    font-size: 50px;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.banner-content p {
+    text-transform: capitalize;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+form {
+    padding: 20px;
+    background-color: #101010;
+    opacity: .8;
+    border-radius: 5px;
+}
+
+form input {
+    margin-right: 20px;
+}
+
+.form-custome {
+    border-radius: 0;
+    width: 96%;
+    margin-left: 10px;
+}
+
+.btn-custome2 {
+    background-color: #ae2c52;
+    padding: 6px 25%;
+    color: #ffffff;
+    border-radius: 0;
+    margin-left: 10px;
+}
+
+.form-design {}
+
+
+/* banner area end here */

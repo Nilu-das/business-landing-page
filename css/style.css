@@ -21,7 +21,7 @@ html {
     color: #404040 !important;
     font-size: 18px;
     text-transform: capitalize;
-    font-weight: 500;
+    font-weight: 700;
     position: relative;
 }
 
@@ -51,7 +51,7 @@ html {
     color: #ffffff;
     text-transform: capitalize;
     font-size: 18px;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .btn-custome:hover {

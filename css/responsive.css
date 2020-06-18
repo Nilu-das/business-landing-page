@@ -1,39 +1,316 @@
 /*Extra small devices (portrait phones, less than 576px)*/
 
-@media (max-width: 575.98px) {}
+@media (max-width: 575.98px) {
+    /* menu or header area start here */
+    .menu ul li a::after {
+        position: absolute;
+        content: '';
+        width: 18%;
+        height: 4px;
+        bottom: 5%;
+        left: 41%;
+        background-color: none;
+        transition: 0.3s;
+    }
+    a {
+        text-align: center;
+    }
+    .menu ul li {
+        text-align: center;
+    }
+    /* menu or header area end here */
+    /* banner area start here */
+    .banner-content {
+        padding: 70px 0 55px 0;
+    }
+    .btn-custome2 {
+        width: 96%;
+    }
+    .banner-content h2 {
+        font-size: 22px;
+        color: #7F1A57;
+        font-weight: 700;
+    }
+    .banner-content p {
+        font-size: 16px;
+        padding: 20px 45px 0 45px;
+    }
+    .form-custome {
+        padding: 28px 11px;
+        text-align: center;
+        font-weight: 700;
+    }
+    /* banner area end here */
+    /* feature  area start here */
+    #feature-area {
+        padding: 50px 0;
+    }
+    /* feature  area end here */
+    /* service area start here */
+    #service-area {
+        background-color: #F9F9F9;
+        padding: 50px 0;
+    }
+    .service-text h2 {
+        font-size: 25px;
+        font-weight: 700;
+    }
+    .service-text p {
+        font-size: 16px;
+        padding: 20px 0;
+    }
+    .btn-custome3 {
+        font-size: 23px;
+        padding: 12px 40px;
+    }
+    /* service area end here */
+    /* discover area start here */
+    #discover-area {
+        background-color: #303336;
+        padding: 50px 0;
+    }
+    .discover-text h2 {
+        font-size: 24px;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: center;
+        padding-bottom: 15px;
+    }
+    .discover-button {
+        text-align: center !important;
+    }
+    .btn-custome4 {
+        font-size: 23px;
+    }
+    /* discover area start here */
+    /* its for slider area */
+    .slider-part p {
+        font-size: 20px;
+    }
+    /* its for footer area */
+    #footer-area p {
+        font-size: 16px;
+    }
+}
 
 
 /* Small devices (landscape phones, 576px and up)*/
 
-@media (min-width: 576px) and (max-width: 767.98px) {}
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /* menu area start here */
+    .menu ul li a::after {
+        position: absolute;
+        content: '';
+        width: 18%;
+        height: 4px;
+        bottom: 5%;
+        left: 41%;
+        background-color: none;
+        transition: 0.3s;
+    }
+    a {
+        text-align: center;
+    }
+    .menu ul li {
+        text-align: center;
+    }
+    /* menu area end here */
+    /* banner area start here */
+    .banner-content {
+        padding: 50px 0 55px 0;
+    }
+    .banner-content h2 {
+        font-size: 31px;
+        font-weight: 700;
+    }
+    /* its for form area */
+    form {
+        border-radius: 5px;
+        border: 4px solid #101010;
+        text-align: center;
+        background-color: transparent;
+    }
+    form input {
+        text-align: center;
+    }
+    .btn-custome2 {
+        padding: 11px 32%;
+        margin-left: 6px;
+    }
+    /* banner area end here */
+    /* feature area start here */
+    #feature-area {
+        padding: 50px 0;
+    }
+    .icon {
+        font-size: 50px;
+    }
+    .feature-material h2 {
+        font-size: 18px;
+    }
+    .feature-material p {
+        font-size: 16px;
+    }
+    /* feature area emd here */
+    /* service area start here */
+    #service-area {
+        background-color: #F9F9F9;
+        padding: 50px 0;
+    }
+    .service-text h2 {
+        font-size: 34px;
+        font-weight: 700;
+        color: #7f1a38;
+    }
+    .service-text p {
+        font-size: 16px;
+        padding: 20px 0;
+    }
+    /* service area end here */
+    /* discover area start here */
+    .discover-text h2 {
+        font-size: 33px;
+        font-weight: 700;
+        text-align: center;
+        padding-bottom: 15px;
+    }
+    .discover-button {
+        text-align: center !important;
+    }
+    /* discover area end here */
+    /* its for footer */
+    #footer-area p {
+        font-size: 14px;
+        font-weight: 700;
+    }
+}
 
 
 /* Medium devices (tablets, 768px and up)*/
 
-@media (min-width: 768px) and (max-width: 991.98px) {}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* its for menu bar */
+    .menu ul li a::after {
+        position: absolute;
+        content: '';
+        width: 18%;
+        height: 4px;
+        bottom: 5%;
+        left: 41%;
+        background-color: none;
+        transition: 0.3s;
+    }
+    a {
+        text-align: center;
+    }
+    .menu ul li {
+        text-align: center;
+    }
+    /* its for menu bar */
+    /* its for banner content */
+    .form-custome {
+        font-weight: 700;
+    }
+    .btn-custome2 {
+        padding: 14px 25%;
+        margin-left: 10px;
+        font-weight: 700;
+        font-size: 16px;
+    }
+    .form-design p {
+        padding: 25px 50px 50px 50px;
+    }
+    .banner-content {
+        padding: 60px 0 20px 0;
+    }
+    .banner-content h2 {
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .banner-content p {
+        font-size: 18px;
+        padding: 20px 80px 0 80px;
+    }
+    /* its for banner content */
+    /* feature area start here */
+    #feature-area {
+        padding: 50px 0;
+    }
+    .icon {
+        font-size: 60px;
+    }
+    .feature-material h2 {
+        font-size: 24px;
+        font-weight: 700;
+    }
+    /* feature area end here */
+    /* service area start here */
+    #service-area {
+        background-color: #AEAEAE;
+        padding: 50px 0;
+    }
+    .service-text h2 {
+        font-size: 45px;
+        font-weight: 700;
+        color: #7f1a38;
+    }
+    /* service area end here */
+    /* its for discover area */
+    .discover-text h2 {
+        font-size: 27px;
+        font-weight: 700;
+        padding-bottom: 20px;
+    }
+    .text-right {
+        text-align: center !important;
+    }
+}
 
 
 /*Large devices (desktops, 992px and up)*/
 
-@media (min-width: 992px) and (max-width: 1199.98px) {}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* its for menu area */
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding: 0;
+    }
+    .menu ul li {
+        margin-right: 18px;
+    }
+    .menu ul li a {
+        font-size: 16px;
+        font-weight: 700;
+    }
+    .btn-custome {
+        font-size: 16px;
+        border-radius: 5px;
+    }
+    /* its for menu area */
+    /* its for banner content */
+    .banner-content h2 {
+        font-size: 42px;
+        font-weight: 700;
+    }
+    .form-design p {
+        padding: 25px 50px 100px 50px;
+    }
+    .btn-custome2 {
+        padding: 12px 25%;
+        font-size: 18px;
+    }
+    /* its for discover area */
+    .discover-text h2 {
+        font-size: 32px;
+        font-weight: 500;
+        padding-top: 15px;
+    }
+    .btn-custome4 {
+        font-weight: 500;
+        font-size: 25px;
+    }
+}
 
 
 /* Extra large devices (large desktops, 1200px and up)*/
 
 @media (min-width: 1200px) {}
-
-
-@media (min-width: 320px) and (max-width: 480px) {}
-
-@media (min-width: 320px) and (max-width: 568px) {}
-
-@media (min-width: 414) and (max-width: 736) {}
-
-@media (min-width: 600) and (max-width: 800) {}
-
-@media (min-width: 768) and (max-width: 1024) {}
-
-@media (min-width: 800) and (max-width: 1280) {}
-
-@media (min-width: 1080) and (max-width: 1920) {}
-
